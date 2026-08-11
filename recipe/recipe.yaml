@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.4.0"
+  version: "1.4.1"
 
 package:
   name: pystac-ext-mlm
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pystac-ext-mlm/pystac_ext_mlm-${{ version }}.tar.gz
-  sha256: fdaf464e729071348b3921e908dbe3c2e1cce5d65153ee19995e2e7315e9edf9
+  sha256: f27ee69816e6d076eec5bef1f9fc7778850d332afeccc598f787bf53c9439019
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     # imported but not declared as a dependency
     - pystac-ext-classification
     - pystac-ext-raster
-    
+
 
 tests:
   - python:
